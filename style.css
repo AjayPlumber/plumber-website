@@ -1,0 +1,527 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html{
+    font-size: 1px;
+    overflow-x: hidden;
+  }
+
+  body{
+    overflow-x: hidden;
+  }
+
+  h1{
+    font-size: 32rem;
+  }
+
+  h2{
+    font-size: 24rem;
+  }
+
+  h3{
+    font-size: 20.8rem;
+  }
+
+  h4{
+    font-size: 16rem;
+  }
+
+  h5{
+    font-size: 12.8rem;
+  }
+
+  h6{
+    font-size: 11.2rem;
+  }
+
+  p{
+    font-size: 16rem;
+  }
+
+  div{
+    font-size: 16rem;
+  }
+
+  a{
+    font-size: 16rem;
+  }
+
+  span{
+    font-size: 16rem;
+  }
+
+  li{
+    font-size: 16rem;
+  }
+
+  .leftSection{
+    font-size: 32rem;
+  }
+
+  .purple{
+    font-size: 40rem;
+  }
+
+  .passionate{
+    font-size: 40rem;
+  }
+
+  #element1{
+    font-size: 40rem;
+  }
+
+  #element{
+    font-size: 40rem;
+  }
+
+  body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(18, 18, 62);
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: center;
+  }
+
+  nav ul li {
+    list-style: none;
+    margin: 0 20px;
+  }
+
+  .left {
+    font-size: 24rem;
+  }
+
+  .firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding-top: 20rem;
+  }
+
+  .leftSection {
+    flex-basis: 40%;
+    font-size: 40rem;
+  }
+
+  .rightSection{
+    justify-content: end;
+    width: 40%;
+    height: 36vw;
+    background-image: url('ajay-photo.jpg');
+    background-size: cover;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .purple {
+    color: rgb(165, 91, 235);
+  }
+
+  .right ul li a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .right ul li a:hover {
+    color: rgb(62, 62, 156);
+    font-size: 16rem;
+  }
+
+  #element {
+    color: rgb(160, 94, 240);
+  }
+
+  main hr {
+    background: rgb(136, 68, 237);
+    border: 0;
+    height: 1rem;
+    margin: 60rem 80rem;
+  }
+
+  #element1 {
+    color: rgb(252, 100, 128);
+    font-weight: bolder;
+  }
+
+  .leftSection .btn{
+    padding: 12px;
+    padding-left: 25rem;
+    padding-right: 25rem;
+    background: #1e2167;
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    font-size: 20rem;
+    cursor: pointer;
+  }
+
+  .leftSection .buttons{
+    padding: 40rem 0;
+  }
+
+
+  .cross{
+    color: white;
+    font-size: 24rem;
+    display: none;
+}
+
+.menu{
+    color: white;
+    font-size: 24rem;
+    display: none;
+}
+
+.typed-cursor{
+  font-size: 40rem;
+  visibility: hidden;
+}
+
+.navBar{
+  position: relative;
+}
+
+  @media (max-width: 700px){
+
+   .right{
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        width: 40%;
+        height: 100vh;
+        top: 0;
+        right: -40%;
+        gap: 10%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        padding-left: 5%;
+        background: #0e0e1a;
+        color: white;
+        transition: 0.7s;
+        z-index: 999;
+        }
+
+        .cross{
+            margin-right: 10px;
+        }
+
+        .right ul{
+            flex-direction: column;
+            height: 60vh;
+            width: 80%;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .menu{
+            display: block;
+        }
+
+        .cross{
+            display: block;
+        }
+
+        .firstSection{
+            flex-direction: column-reverse;
+            align-items: center;
+            justify-content: center;
+            width: 90%;
+            margin: auto;
+            padding-top: 5%;
+        }
+  }
+
+  @media (min-width: 700px) and (max-width: 800px){
+    html{
+      font-size: 0.90px;
+    }
+  }
+
+  @media (min-width:500px) and (max-width: 700px){
+          .rightSection{
+            width: 50vw;
+            height: 50vw;
+          }
+          
+          html{
+            font-size: 0.85px;
+          }
+  }
+
+  @media (max-width: 400px){
+    .rightSection{
+      width: 70vw;
+      height: 70vw;
+    }
+
+    html{
+      font-size: 0.70px;
+    }
+
+    #element1{
+      font-size: 35rem;
+    }
+
+    #element{
+      font-size: 35rem;
+    }
+  }
+
+  @media (min-width: 400px) and (max-width: 500px){
+    .rightSection{
+      width: 60vw;
+      height: 60vw;
+    }
+
+
+    html{
+      font-size: 0.75px;
+    }
+  }
+
+
+  footer{
+    background: #0e0e1a;
+  }
+
+  .footEmail{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+  }
+
+  .footSocial{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+  }
+
+  .footEmail h3{
+   color: white;
+  }
+
+  .footSocial a{
+    color: white;
+    text-decoration: none;
+    font-size: 35rem;
+  }
+
+  .footNavLinks{
+    display: flex;
+    justify-content: center;
+    padding-top: 12px;
+    margin-left: 25rem;
+  }
+
+  .footNavLinks a{
+    margin-right: 25rem;
+    color: white;
+    text-decoration: none;
+  }
+
+  .footCopy{
+    display: flex;
+    justify-content: center;
+    padding-top: 12px;
+  }
+
+  .footBackToTop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 12px;
+    padding-bottom: 20px;
+  }
+
+  .footBackToTop button{
+    padding: 10rem;
+    border-radius: 10rem;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    background: white;
+  }
+
+  .footBackToTop button:hover{
+    color: blue;
+    background: white;
+  }
+
+  .overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.555);
+    z-index: 499;
+  }
+
+  .largestContainer{
+    height: 100vh;
+  }
+
+  .intro{
+    width: 90%;
+    margin: auto;
+    line-height: 2;
+  }
+  .intro h1{
+    text-align: center;
+  }
+
+  .intro p{
+    margin-bottom: 20rem;
+    font-size: 20rem;
+  }
+
+  .intro p span{
+    font-size: 20rem;
+    font-weight: 900;
+  }
+
+  #introSpan{
+    color: red;
+  }
+
+  /* --- Projects.html page ----  */
+
+  .project{
+    width: 80%;
+    margin: auto;
+    padding-bottom: 70rem;
+  }
+
+  .projectName{
+    text-align: center;
+    padding-bottom: 20rem;
+  }
+
+.descriptionAndImg{
+  display: flex;
+  justify-content: space-between;
+}
+
+.descriptionAndGit{
+  flex-basis: 49%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+.descriptionAndGit p{
+  font-size: 20rem;
+}
+
+.projectGit{
+  width: 100%;
+  text-align: center;
+  padding-top: 10rem;
+}
+
+.projectGit a button{
+  font-size: 30rem;
+  padding: 2rem 10rem;
+  border-radius: 10rem;
+  border: none;
+}
+
+.project a button:hover{
+  color: blue;
+  background: white;
+}
+
+.screenShot{
+  flex-basis: 49%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.screenShot img{
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+@media(max-width: 700px){
+  .descriptionAndImg{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .project{
+    width: 90%;
+  }
+
+  .screenShot{
+    padding-bottom: 16rem;
+  }
+}
+
+.projectMainHeading{
+  text-align: center;
+  padding: 20rem 0;
+  width: 99%;
+}
+
+/* ----- contact Page ----  */
+.contactMainHeading{
+  text-align: center;
+  padding: 20rem 0;
+  width: 99%;
+}
+
+.location{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.location iframe{
+  width: 80vw;
+  height: 60vw;
+}
+
+.contact-us{
+   width: 80%;
+   margin: auto;
+   padding-top: 35rem;
+}
+
+.contact-col div{
+   display: flex;
+   justify-content: start;
+   padding-bottom: 30rem;
+}
+
+.contact-col div .fa-solid{
+  margin-right: 15rem;
+  font-size: 35rem;
+}
+
+.contact-col div p{
+  font-size: 20rem;
+}
